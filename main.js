@@ -1,6 +1,9 @@
 //console.log my bbg forevah forevah :3
 console.log("Hello World")
 
+let humanScore = 0;
+let computerScore = 0;
+
 
 /* works.
 math random generatres between large decimals, math floor rounds it to the 
@@ -17,3 +20,11 @@ function getComputerChoice() {
                             "Siccors";
 }
 
+/* just gets the human choice via prompt*/
+
+function getHumanChoice() {
+
+ prompt("Rock, Paper, or Sccissors?");
+}
+
+console.log(getHumanChoice)
