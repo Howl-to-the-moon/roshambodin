@@ -111,10 +111,10 @@ const scissors = document.querySelector("#scissors");
             else {
                 humanScore++;
                 humanPoints.textContent = humanScore;
-                 if (humanScore >= 5) {
+                 if (humanScore == 5) {
        return alert("Human wins! You can stop playing now.");
     }
-                 gameStatus.textContent = "Player wins. Rock beats Siccors";
+                return gameStatus.textContent = "Player wins. Rock beats Siccors";
 
             }
 
@@ -125,7 +125,7 @@ const scissors = document.querySelector("#scissors");
             if (computerChoice == "ROCK") {
                 humanScore++;
                 humanPoints.textContent = humanScore;
-                if (humanScore >= 5) {
+                if (humanScore == 5) {
        return alert("Human wins! You can stop playing now.");
     }
                 return gameStatus.textContent = "Player wins. Paper beats Rock";
@@ -161,7 +161,7 @@ const scissors = document.querySelector("#scissors");
             else if (computerChoice == "PAPER"){
                 humanScore++;
                 humanPoints.textContent = humanScore;
-                if (humanScore >= 5) {
+                if (humanScore == 5) {
        return alert("Human wins! You can stop playing now.");
     }
                 return gameStatus.textContent = "Player wins. Rock beats Siccors";

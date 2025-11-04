@@ -1,0 +1,76 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold;
+    margin: 0;
+    padding: 0;
+
+}
+
+button {
+
+    color: rgb(240, 1, 1);
+    background-color: rgb(224, 224, 224);
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+    
+}
+
+.stacker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 247, 194);
+    width: 100%;
+
+}
+
+.statusBoard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+
+    gap: 50px;
+
+    padding: 100px;
+    margin: 50px;
+
+    border: solid 8px grey;
+    background-color: black;
+    color: rgb(0, 255, 0);
+}
+
+.gameStatus {
+    font-size: 25px;
+
+}
+
+.scoreBoard {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.pointTotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}

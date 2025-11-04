@@ -4,36 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1> ROSHAMBODIN </h1>
+<div class="stacker">
 
-    <div class="scoreBoard">
+    <div class="topBar">
 
-        <p id="gameStatus"> Console Log will go here  </p>
-
-        <div class="pointTotal"> Human: <p id="humanPoints"> 0 </p> Computer: <p id="computerPoints"> 0 </p> </div>
-
-        <!-- Score stuff will go here -->
+        <h1> ROSHAMBODIN </h1>
 
     </div>
 
+    <div class="statusBoard"> 
 
-    <button id="rock"> Rock </button>
-    <button id="paper"> Paper </button>
-    <button id="scissors"> Scissors </button>
+        <div class="gameStatus">
+            <p id="gameStatus"> Click a Button to Start   </p>
+        </div>
 
+
+
+        <div class="scoreBoard">
+            <div class="pointTotal"> Human <div id="humanPoints"> 0 </div> </div>
+            
+            <div class="pointTotal"> Computer <div id="computerPoints"> 0 </div> </div>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button id="rock"> Rock </button>
+        <button id="paper"> Paper </button>
+        <button id="scissors"> Scissors </button>
+    </div>
+
+
+    
+</div>
+
+
+    
     
 
 
-    <script src="main.js">
 
-    
-
-
-
-    </script>
+    <script src="main.js"></script>
 
 
 
